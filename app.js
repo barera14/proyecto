@@ -1,4 +1,5 @@
 
+
 var app = angular.module("myApp", []);
 
 
@@ -83,6 +84,19 @@ app.controller('MyCtrl', function ($scope) {
         $scope.calcular = function () {
       
             // anual
+            var tNa=$scope.TNA;
+            var teT1=tNa/100;
+            var teT2=3/12;
+            var teTF=teT1*teT2;
+            $scope.valTET=teTF;
+
+            var tea1=tNa/100;
+            var tea2=12/12;
+            var teaF=tea1*tea2;
+            $scope.valTEA=teaF;
+            $scope.valTNA=$scope.TNA;
+            $scope.valTNT=tNa/4;
+
               var capital = parseInt($scope.valor);
               var interes= $scope.Interes;
               var interesDe=interes/100;
@@ -185,4 +199,6 @@ app.controller('MyCtrl', function ($scope) {
     };
 
 });
+
+
 
