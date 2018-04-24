@@ -52,8 +52,16 @@
           <div class="jumbotron" ng-hide="esconder==true">
             <h2>Ingrese los valores</h2>
             <div class="form-group">
+              <div class="row">
+                <div class="col-lg-6">
               <label>Valor de Prestamo</label>
               <input class="form-control" type="text" name="valorP" ng-model="valor">
+            </div>
+            <div class="col-lg-6">
+                <label>Tasa de Nominal Anual</label>
+                <input class="form-control" type="text" name="TNA" ng-model="TNA">
+              </div>
+          </div>
               <div class="row">
                 <div class="col-lg-6">
                   <label>Interés</label>
@@ -98,22 +106,22 @@
             <br>
               <div class="row">
                   <div class="col-lg-6">
-                  <spam>Tasa Nominal Mesual: {{valFin}}%</spam>
+                  <spam>Tasa Nominal Trimestral: {{valTNT}}%</spam>
 
                 </div>
                <div class="col-lg-6">
-                  <spam>Tasa de Efectivo Mensual: {{insesimple}}%</spam>
+                  <spam>Tasa de Efectivo Trimestral: {{valTET}}%</spam>
 
                 </div>
                  </div>
                  <div class="row">
                      <div class="col-lg-6">
-                  <spam>Tasa Nominal Anual: {{valFin}}%</spam>
+                  <spam>Tasa Nominal Anual: {{valTNA}}%</spam>
 
                 </div>
                    
                   <div class="col-lg-6">
-                  <spam>Tasa de Efectivo Anual: {{insesimple}}%</spam>
+                  <spam>Tasa de Efectivo Anual: {{valTEA}}%</spam>
 
                 </div>
                  </div>
