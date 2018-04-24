@@ -1,0 +1,52 @@
+
+.credit-card-div  span { 
+    padding-top:10px; 
+}
+.credit-card-div img { 
+    padding-top:30px; 
+}
+.credit-card-div .small-font { 
+    font-size:9px; 
+}
+.credit-card-div .pad-adjust {
+     padding-top:10px; 
+    }
+#form{
+ margin-left: 150px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.color{
+    background-color: aquamarine;
+}
+#itemInput {
+  width: 200px;
+}
+#sortable, #sortable1 { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#sortable li,#sortable1 li { background:  #dddddd; margin: 0 10px 10px 10px;  font-size: 1.2em; height: 30px; }
+#sortable li span,#sortable1 li span { position: absolute;  }
+.draggable { width: 90px; height: 80px; padding: 5px; float: left; margin: 0 10px 10px 0; font-size: .9em; }
+.ui-widget-header p, .ui-widget-content p { margin: 0; }
+#snaptarget { height: 140px; }
+.ui-state-default{
+        border-top-color: red;
+        border-right-color: red;
+        border-bottom-color: red;
+        border-left-color: red;
+      }
+#icono{
+
+}
